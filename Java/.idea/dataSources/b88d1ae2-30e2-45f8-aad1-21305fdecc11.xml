@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Statistica@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="BikeManagement">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="Companie">
+      <ObjectId>5</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="Statistica">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>7.43770/717916A9-1751-43B9-BE4C-F0162CA54132@DESKTOP-PJUGJ1U</Fingerprint>
+    </database>
+    <database id="5" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="9" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="10" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="11" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="12" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="13" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="14" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="15" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="16" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="17" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="18" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="19" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-11-03.12:05:31.303</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="20" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="21" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="22" parent="19" name="News">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2019-11-03.08:41:32.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-03.08:41:33.063</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="19" name="Predictions">
+      <ObjectId>1461580245</ObjectId>
+      <CreatedTimestamp>2019-11-03.11:17:33.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-03.11:17:34.057</ModifiedTimestamp>
+    </table>
+    <column id="24" parent="22" name="News_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="22" name="Date">
+      <Position>2</Position>
+      <DataType>nvarchar(12 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="22" name="Clasification">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="22" name="Confidence">
+      <Position>4</Position>
+      <DataType>nvarchar(5 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="28" parent="22" name="PK_News">
+      <Position>1</Position>
+      <ColNames>News_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="29" parent="22" name="PK_News">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2019-11-03.08:41:33.057</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-03.08:41:33.057</ModifiedTimestamp>
+      <ColNames>News_ID</ColNames>
+      <UnderlyingIndexName>PK_News</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="23" name="ID_Prediction">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="23" name="StockValue">
+      <Position>2</Position>
+      <DataType>nvarchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="23" name="CompanyName">
+      <Position>3</Position>
+      <DataType>nvarchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="33" parent="23" name="PK_Predictions">
+      <Position>1</Position>
+      <ColNames>ID_Prediction</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="23" name="PK_Predictions">
+      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2019-11-03.11:17:34.050</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-03.11:17:34.050</ModifiedTimestamp>
+      <ColNames>ID_Prediction</ColNames>
+      <UnderlyingIndexName>PK_Predictions</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

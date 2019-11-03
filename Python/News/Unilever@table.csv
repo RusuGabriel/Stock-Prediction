@@ -1,0 +1,71 @@
+Date,Content
+2019-10-27,"Note: in agreement with the company, I decided not to name them to prevent
+damaging their brand image. The company fixed the issue within an hour after
+notifying them, big kudos for that.
+Here's a story on a secure file transfer company, that got hacked in… [+9233 chars]"
+2019-10-30,"Yes, you can call it the [companyname] community.
+Theres no major harm in that, but theres not much benefit in it either. 
+Would your audience genuinely be proud to say they are in the companyname community (and would you?) Maybe, but its far less likely th… [+745 chars]"
+2019-10-25,"5020&gt;&gt;&gt; 
+OptionalJava8
+OptionalOptional
+Optional
+Optional
+Optional3
+<ul><li>Optional.empty() Optional</li><li>Optional.of(null)</li><li>Optional.ofNullable(null)</li></ul>nullOptional.ofOptional.ofnullnull
+nullOptional.ofNullable
+isPresentifP… [+4838 chars]"
+2019-10-14,"55015.&gt;&gt;&gt; 
+ BUG
+2019-10-14 10:55:10,167 |-ERROR com.newpearl.dc.web.handler.GlobalExceptionHandler:69 - https://127.0.0.1:8899/dc-api/open/save
+2019-10-14 10:55:10,168 |-ERROR com.newpearl.dc.web.handler.GlobalExceptionHandler:72 - [POST] {""data"":… [+18365 chars]"
+2019-10-02,"#Script is designed as a small, expressive and wrist-friendly dynamic scripting language that for maximum familiarity
+is modelled after the world's most popular and ubiquitous scripting Language, JavaScript. Its minimal syntax was inspired 
+by other small b… [+40592 chars]"
+2019-10-12,"55015.&gt;&gt;&gt; 
+    PageOffice,,
+poCtrl.setSaveDataPage(""SaveData.jsp"");//
+poCtrl.setSaveFilePage(""SaveFile.jsp"");//
+SaveFilePageSaveDataPage:
+SaveFilePage:FormSaveDataPage:WordExcelForm
+SaveFilePage:FileServerSaveDataPage:PageOffice.ExcelReaderPage… [+2801 chars]"
+2019-10-21,"Heylo All
+Here is a featherweight blog on how we can consume odata queries in sap ui5 app. I just used Northwind Service for my trial..
+Below are the query operations i have worked on.
+Changes brought out in SAP UI5 app are:
+neo-app.json:
+manifest.json:… [+5261 chars]"
+2019-10-21,"I am getting an error about my module named ""companyname"" (fake name as to not reveal this project) despite the fact that it is in the folder with my Dockerfile.
+Here is my Dockerfile:
+FROM python:3.7
+RUN apt-get update &amp;&amp; apt-get upgrade -y &amp;&… [+1107 chars]"
+2019-10-14,"Thanks for contributing an answer to Stack Overflow!
+<ul><li>Please be sure to answer the question. Provide details and share your research!</li></ul>But avoid
+<ul><li>Asking for help, clarification, or responding to other answers.</li><li>Making statements… [+133 chars]"
+2019-10-29,"I've created a form in Django using crispy forms, it works fine but I can tell just by looking at it that I've most likely over engineered it. It's a lot of very similar pieces of code.
+How should I actually be doing this? I would presume there's a much bett… [+4026 chars]"
+2019-10-02,It gives me back this error when the build its finished and says Failed to build: UnityEditor.BuildPlayerWindow+BuildMethodException: 3 errors at UnityEditor.BuildPlayerWindow+DefaultBuildMethods.BuildPlayer (UnityEditor.BuildPlayerOptions options) [0x00257] … [+2826 chars]
+2019-10-10,"Hi all, I'm trying to build my app with the build app bundle (Google Play), but I get an error during the process. I made a lot of proof with answers found on internet but none solved my problem. Here is the error that I get.
+CommandInvokationFailure: Gradle… [+5134 chars]"
+2019-10-14,"Introduction
+Thanks to Augmented Lead Context, sales employees can be supported with context-related lead information that enhances your sales representatives with more detailed follow-up activities. Gathering business specific interaction data from any chan… [+5308 chars]"
+2019-10-19,"I have these two error when trying to build my android app to comply with the 64bit google store requirement. I already saw a bunch of post mentioning this issue but none of the fix did it for me.
+Failed running C:\Program Files\Unity\Hub\Editor\2018.3.14f1\… [+9099 chars]"
+2019-10-22,".NET Framework e .NET Core, o que muda?
+Basicamente o .NET Framework, que nasceu lá em 2001, foi criado para rodar em cima do Windows, e é isto que vem acontecendo desde então, até a versão 4.8, que encerrará este ciclo.
+Há cerca de cinco anos, a Microsoft … [+11822 chars]"
+2019-11-02,"Since a Person can have multiple Companys in the same state. It is not a good idea to do the JOIN at the database level. That would mean that the database will (likely) return the same Company multiple times, making the output quite large.
+We can prefetch th… [+611 chars]"
+2019-11-01,"Today, Structured Query Language is the standard means of manipulating and querying data in relational databases, though with proprietary extensions among the products. The ease and ubiquity of SQL have even led the creators of many NoSQL or non-relational da… [+12444 chars]"
+2019-10-19,"Hello, If you select script debugging as the build option and build Android, you will encounter an error, but you don't know why. Please help me.
+engine version : 2018.4.5f1
+log :
+stdout: Building libil2cpp.so with AndroidToolChain Output directory: /Users… [+25254 chars]"
+2019-11-01,"CERT
+mailing list archives
+AR19-304A: MAR-10135536-8 North Korean Trojan: HOPLIGHT
+From: ""US-CERT"" &lt;US-CERT () ncas us-cert gov&gt;Date: Thu, 31 Oct 2019 19:20:44 -0500
+Cybersecurity and Infrastructure Security Agency Logo
+National Cyber Awareness Sys… [+119556 chars]"
+2019-10-31,"Notification
+This report is provided ""as is"" for informational purposes only. The Department of Homeland Security (DHS) does not provide any warranties of any kind regarding any information contained herein. The DHS does not endorse any commercial product or… [+143082 chars]"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="predictionBG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1150.0" style="-fx-background-color: #31081F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Label fx:id="predictionLabel" layoutX="438.0" layoutY="26.0" prefHeight="73.0" prefWidth="256.0" text="Prediction" textFill="#dce0d9">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button id="record-sales" layoutX="120.0" layoutY="169.0" mnemonicParsing="false" onAction="#goToCocaColaHBCChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Coca-Cola HBC" textFill="#dce0d9" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="169.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" layoutX="120.0" layoutY="253.0" mnemonicParsing="false" onAction="#goToCompassGroupChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Compass Group" textFill="#dce0d9" AnchorPane.leftAnchor="120.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn3" layoutX="120.0" layoutY="338.0" mnemonicParsing="false" onAction="#goToBarclaysChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Barclays" textFill="#dce0d9" AnchorPane.leftAnchor="120.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn4" layoutX="120.0" layoutY="424.0" mnemonicParsing="false" onAction="#BritishLandCompany" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="British Land Company" textFill="#dce0d9" AnchorPane.leftAnchor="120.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn5" layoutX="120.0" layoutY="512.0" mnemonicParsing="false" onAction="#goToAvivaChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Aviva" textFill="#dce0d9" AnchorPane.bottomAnchor="125.0" AnchorPane.leftAnchor="120.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn6" layoutX="715.0" layoutY="169.0" mnemonicParsing="false" onAction="#goToHalmaChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Halma" textFill="#dce0d9" AnchorPane.rightAnchor="134.0" AnchorPane.topAnchor="169.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn7" layoutX="715.0" layoutY="253.0" mnemonicParsing="false" onAction="#goToNationalGrillChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="National Gril" textFill="#dce0d9" AnchorPane.rightAnchor="134.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn8" layoutX="715.0" layoutY="338.0" mnemonicParsing="false" onAction="#goToRollsRoyceChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Rolls-Royce" textFill="#dce0d9" AnchorPane.rightAnchor="134.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn9" layoutX="715.0" layoutY="424.0" mnemonicParsing="false" onAction="#goToVodafoneGroupChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Vodafone Group" textFill="#dce0d9" AnchorPane.rightAnchor="134.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="record-sales" fx:id="predictBtn10" layoutX="715.0" layoutY="512.0" mnemonicParsing="false" onAction="#goToUnileverChart" prefHeight="63.0" prefWidth="301.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Unilever" textFill="#dce0d9" AnchorPane.bottomAnchor="125.0" AnchorPane.rightAnchor="134.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Separator layoutX="563.0" layoutY="165.0" orientation="VERTICAL" prefHeight="438.0" prefWidth="0.0" />
+      <Button id="record-sales" fx:id="LogOutBtn" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#gotoLogin" prefHeight="37.0" prefWidth="108.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Logout" textFill="#dce0d9" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChartController">
+   <children>
+      <AreaChart fx:id="areaChart" layoutX="14.0" layoutY="106.0" prefHeight="580.0" prefWidth="1122.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </AreaChart>
+      <Button id="record-sales" layoutX="7.0" layoutY="26.0" mnemonicParsing="false" onAction="#goToPrediction" prefHeight="38.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Back" textFill="#f2eeee" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="26.0" />
+      <Label layoutX="501.0" layoutY="45.0" prefHeight="57.0" prefWidth="149.0" text="Prediction" textFill="#6b0f1a">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

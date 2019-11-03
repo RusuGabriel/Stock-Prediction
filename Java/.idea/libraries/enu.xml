@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="enu">
+    <CLASSES>
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/adaptive" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/alwaysencrypted" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/azureactivedirectoryauthentication" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/connections" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/constrained" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/dataclassification" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/datatypes" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/resultsets" />
+      <root url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu/samples/sparse" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/mssql-jdbc-7.4.1.jre8-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Resources/java-database-driver/sqljdbc_7.4/enu" recursive="false" />
+  </library>
+</component>

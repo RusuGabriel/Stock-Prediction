@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1150.0" style="-fx-background-color: #31081F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <TextField fx:id="UserName" layoutX="636.0" layoutY="266.0" prefHeight="45.0" prefWidth="404.0" style="-fx-background-radius: 20; -fx-border-radius: 20;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <PasswordField fx:id="Password" layoutX="636.0" layoutY="360.0" prefHeight="45.0" prefWidth="404.0" style="-fx-background-radius: 20; -fx-border-radius: 20;">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <Label fx:id="LabelUser" graphicTextGap="5.0" layoutX="460.0" layoutY="266.0" prefHeight="38.0" prefWidth="176.0" text="Username:" textFill="#dce0d9">
+         <font>
+            <Font name="Gill Sans MT" size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelPass" layoutX="472.0" layoutY="355.0" prefHeight="56.0" prefWidth="164.0" text="Password:" textFill="#dce0d9">
+         <font>
+            <Font name="Gill Sans MT" size="39.0" />
+         </font>
+      </Label>
+      <Button id="record-sales" fx:id="LoginBtn" layoutX="805.0" layoutY="456.0" mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="235.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../resources/btnstyle.css" text="Login" textFill="#dce0d9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="541.0" fitWidth="361.0" layoutX="65.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
