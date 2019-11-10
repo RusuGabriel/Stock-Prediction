@@ -39,7 +39,7 @@ Pick up 10 companies from the FTSE 100 share index(The Financial Times Stock Exc
 - [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Initial work
 - [@Mihai Paraschiva]() - WEB Scrapping and News Scapping
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) 
+See also the list of [contributors](https://github.com/RusuGabriel/Stock-Prediction-App/graphs/contributors) 
 who participated in this project.
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
