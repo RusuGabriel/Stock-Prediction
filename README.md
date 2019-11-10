@@ -31,9 +31,7 @@ Pick up 10 companies from the FTSE 100 share index(The Financial Times Stock Exc
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Keras](https://keras.io/) - Deep Learning library
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Initial work
