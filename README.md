@@ -24,18 +24,12 @@ on stock prices using as examples 10 of the FTSE 100 companies.
 - [Acknowledgments](#acknowledgments)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
+Pick up 10 companies from the FTSE 100 share index(The Financial Times Stock Exchange 100 Index, also called the FTSE 100 Index, FTSE 100, FTSE, or, informally, the "Footsie" , is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation)
+* Collect news articles from all over the world about these 10 companies and save the latest news to a database of your choice
+* Do a classification of the news articles (good news, bad news, neutral news). Try to build an automated text classification algorithm in order to classify the headline news into several categories 
+* Analyse the data and show the results about the effects of news on stocks. Try to build a machine learning model using sentiment analysis to predict future stock price fluctuations
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section 
-should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product. 
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution. 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 This section is used to describe potential solutions. 
