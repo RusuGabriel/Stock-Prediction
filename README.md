@@ -4,11 +4,6 @@
 </p>
 <h3 align="center">Stock-Prediction-App</h3>
 
-<div align="center">
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-
-</div>
-
 ---
 
 <p align="center"> Few lines describing your project.
