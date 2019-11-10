@@ -81,7 +81,7 @@ until finished
 Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
