@@ -6,7 +6,8 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Analysing the effects of financial market rumours 
+on stock prices using 10 of the FTSE100 companies. 
     <br> 
 </p>
 
